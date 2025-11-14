@@ -77,10 +77,10 @@ const AdminPanel = ({ adminPanelOpen, onItemClick }) => {
             handleLogout();
             handleMenuItemClick(); // ✅ Logout par bhi close karo
           }}
-          className="w-full flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-red-500/20 transition-all duration-200"
+          className="w-full flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/20 transition-all duration-200"
         >
-          <FiLogOut size={20} className="text-red-300" />
-          {adminPanelOpen && <span className="text-red-300">Logout</span>}
+          <FiLogOut size={20} className="text-white font-bold" />
+          {adminPanelOpen && <span className="text-white font-bold">Logout</span>}
         </button>
       </div>
     </div>
