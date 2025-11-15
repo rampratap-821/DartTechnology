@@ -1,4 +1,8 @@
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3d3f1181ae728935ef1daf0772b116016ff36b9c
 import React from "react";
 
 const HiddoUsers = () => {

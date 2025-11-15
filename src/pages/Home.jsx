@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React from 'react'
 // import { FaUsers } from 'react-icons/fa'
 // import { MdPayment } from 'react-icons/md'
@@ -40,17 +41,29 @@
 //       <h1>Total Users</h1>
 //     </div>
      
+=======
+<<<<<<< HEAD
+// import React from 'react'
+
+// const Home = () => {
+//   return (
+//     <div className='text-4xl'>
+//        rampratap
+      
+>>>>>>> 3d3f1181ae728935ef1daf0772b116016ff36b9c
 //     </div>
 //   )
 // }
 
 // export default Home
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
 import React from 'react'
 import { FaUsers } from 'react-icons/fa'
 import { MdPayment } from 'react-icons/md'
@@ -93,7 +106,66 @@ const Home = () => {
       <h1>Total Users</h1>
     </div>
      
+=======
+>>>>>>> 3d3f1181ae728935ef1daf0772b116016ff36b9c
+import React from 'react'
+import { FaUsers } from 'react-icons/fa'
+import { MdPayment } from 'react-icons/md'
+
+const Home = () => {
+  return (
+<<<<<<< HEAD
+    <div className=' grid grid-cols-3 gap-5 '>
+    <div className='bg-yellow-700 text-white text-center py-10 [&>*]:py-2 font-bold text-2xl rounded-2xl'>
+      <h1 >306B</h1>
+      <h1 className='flex justify-center text-3xl'>
+        <FaUsers></FaUsers>
+      </h1>
+      <h1>Total Users</h1>
+    </div>
+
+
+     <div className='bg-teal-700 text-white text-center py-10 [&>*]:py-2 font-bold text-2xl rounded-2xl'>
+      <h1 >10M</h1>
+      <h1 className='flex justify-center text-3xl'>
+        <MdPayment></MdPayment>
+      </h1>
+      <h1>Payment by users</h1>
+    </div>
+
+
+
+     <div className='bg-pink-700 text-white text-center py-10 [&>*]:py-2 font-bold text-2xl rounded-2xl'>
+      <h1 >306</h1>
+      <h1 className='flex justify-center text-3xl'>
+        <FaUsers></FaUsers>
+      </h1>
+      <h1>Total Users</h1>
+    </div>
+
+     <div className='bg-violet-700 text-white text-center py-10 [&>*]:py-2 font-bold text-2xl rounded-2xl'>
+      <h1 >306</h1>
+      <h1 className='flex justify-center text-3xl'>
+        <FaUsers></FaUsers>
+      </h1>
+      <h1>Total Users</h1>
+    </div>
+     
     </div>
   )
 }
 export default Home;
+=======
+    <div className='text-4xl font-bold'>
+      Rampratap
+>>>>>>> 24b826f5f528b1d9ee488106c0e01c42ae31eb23
+    </div>
+  )
+}
+
+<<<<<<< HEAD
+export default Home;
+=======
+export default Home
+>>>>>>> 24b826f5f528b1d9ee488106c0e01c42ae31eb23
+>>>>>>> 3d3f1181ae728935ef1daf0772b116016ff36b9c

@@ -95,11 +95,23 @@ const Login = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div className="bg-gradient-to-br from-black via-zinc-900 to-black flex justify-center items-center min-h-screen p-4">
       <div className="w-full max-w-md">
         <form
           onSubmit={handleLogin}
           className="bg-black p-6 rounded-3xl shadow-2xl w-full"
+=======
+    <div className="bg-gradient-to-br from-black via-zinc-900 to-black  flex justify-center items-center min-h-screen p-4">
+      <div className="w-full max-w-md">
+        <form
+          onSubmit={handleLogin}
+<<<<<<< HEAD
+          className="bg-black p-6 rounded-3xl shadow-2xl w-full"
+=======
+          className="bg-black border border-white/20 p-6 rounded-3xl shadow-2xl w-full"
+>>>>>>> 24b826f5f528b1d9ee488106c0e01c42ae31eb23
+>>>>>>> 3d3f1181ae728935ef1daf0772b116016ff36b9c
         >
           <div className="flex justify-center mb-6">
             <img 
@@ -138,7 +150,15 @@ const Login = () => {
 
           <button
             type="submit"
+<<<<<<< HEAD
             className="w-full bg-green-700 text-white  py-3 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+=======
+<<<<<<< HEAD
+            className="w-full bg-green-700 text-white  py-3 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+=======
+            className="w-full text-white bg-green-700  py-3 rounded-xl font-bold text-lg "
+>>>>>>> 24b826f5f528b1d9ee488106c0e01c42ae31eb23
+>>>>>>> 3d3f1181ae728935ef1daf0772b116016ff36b9c
           >
             Login
           </button>
