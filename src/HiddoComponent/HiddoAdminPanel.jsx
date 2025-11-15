@@ -7,7 +7,7 @@ import { useNavigate, Link } from "react-router-dom";
 import DarTechnology from "../assets/image/image-removebg-preview.png";
 import { MdAppBlocking } from "react-icons/md";
 
-const AdminPanel = ({ adminPanelOpen, onItemClick }) => {
+const HiddoAdminPanel = ({ adminPanelOpen, onItemClick }) => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -22,7 +22,7 @@ const AdminPanel = ({ adminPanelOpen, onItemClick }) => {
   return (
     <div className="flex flex-col h-full">
       {/* Top Section */}
-      <div className="flex items-center justify-between p-4 border-b border-green-800">
+      <div className="flex items-center justify-between p-4 border-b-2 border-green-800">
         <div className="flex items-center gap-3">
           <img
             src={DarTechnology}
@@ -32,7 +32,7 @@ const AdminPanel = ({ adminPanelOpen, onItemClick }) => {
           />
           {adminPanelOpen && (
             <h1 className="text-lg font-semibold tracking-wide">
-              Coinclash
+              Hiddo
             </h1>
           )}
         </div>
@@ -43,7 +43,7 @@ const AdminPanel = ({ adminPanelOpen, onItemClick }) => {
 
 
         <Link
-          to="/coin/home"
+          to="/hiddo/hiddoHome"
           onClick={handleMenuItemClick} // ✅ Ye line add karo
           className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-200"
         >
@@ -52,21 +52,23 @@ const AdminPanel = ({ adminPanelOpen, onItemClick }) => {
         </Link>
 
 
-
         <Link
-          to="/hiddo"
+          to="/coin"
           onClick={handleMenuItemClick} // ✅ Ye line add karo
           className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-200"
         >
           <MdAppBlocking size={20} />
-          {adminPanelOpen && <span>Hiddo</span>}
+          {adminPanelOpen && <span>Coinclash</span>}
         </Link>
 
 
 
 
+
+
+
         <Link
-          to="/coin/users"
+          to="/hiddo/hiddoUsers"
           onClick={handleMenuItemClick} // ✅ Ye line add karo
           className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-200"
         >
@@ -75,7 +77,7 @@ const AdminPanel = ({ adminPanelOpen, onItemClick }) => {
         </Link>
 
         <Link
-          to="/coin/settings"
+          to="/hiddo/hiddoSettings"
           onClick={handleMenuItemClick} // ✅ Ye line add karo
           className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-200"
         >
@@ -91,14 +93,14 @@ const AdminPanel = ({ adminPanelOpen, onItemClick }) => {
             handleLogout();
             handleMenuItemClick(); // ✅ Logout par bhi close karo
           }}
-          className="w-full flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/20 transition-all duration-200"
+          className="w-full flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-red-500/20 transition-all duration-200"
         >
-          <FiLogOut size={20} className="text-white" />
-          {adminPanelOpen && <span className="text-white">Logout</span>}
+          <FiLogOut size={20} className="text-red-300" />
+          {adminPanelOpen && <span className="text-red-300">Logout</span>}
         </button>
       </div>
     </div>
   );
 };
 
-export default AdminPanel;
+export default HiddoAdminPanel;

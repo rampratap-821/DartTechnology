@@ -12,15 +12,15 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    navigate("/dashboard");
+    navigate("/cardOpenAdminPannel");
   };
 
   return (
-    <div className="bg-gradient-to-br from-green-700 to-green-900 flex justify-center items-center min-h-screen p-4">
+    <div className="bg-gradient-to-br from-black via-zinc-900 to-black  flex justify-center items-center min-h-screen p-4">
       <div className="w-full max-w-md">
         <form
           onSubmit={handleLogin}
-          className="bg-white/10 backdrop-blur-lg border border-white/20 p-6 rounded-3xl shadow-2xl w-full"
+          className="bg-black p-6 rounded-3xl shadow-2xl w-full"
         >
           <div className="flex justify-center mb-6">
             <img 
@@ -31,7 +31,7 @@ const Login = () => {
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-white">
-            Welcome Back
+           Login
           </h2>
 
           <div className="mb-6 relative">
@@ -59,9 +59,9 @@ const Login = () => {
 
           <button
             type="submit"
-            className="w-full bg-white text-green-700 hover:bg-gray-100 py-3 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+            className="w-full bg-green-700 text-white  py-3 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
           >
-            Sign In
+            Login
           </button>
 
          

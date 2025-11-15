@@ -5,7 +5,7 @@ import { FiBell, FiSearch, FiLogOut, FiUser, FiMenu } from "react-icons/fi";
 import { PiListDashesBold, PiListDashesFill } from "react-icons/pi";
 import { useNavigate } from "react-router-dom";
 
-const Header = ({ adminPanelOpen, setAdminPanelOpen, isMobile }) => {
+const HiddoHeader = ({ adminPanelOpen, setAdminPanelOpen, isMobile }) => {
  
   const [showUserMenu, setShowUserMenu] = useState(false);
   const navigate = useNavigate();
@@ -26,7 +26,7 @@ const Header = ({ adminPanelOpen, setAdminPanelOpen, isMobile }) => {
   };
 
   return (
-    <header className="bg-black shadow-md border-b border-green-800 sticky top-0 z-20 transition-all duration-300">
+    <header className="bg-pink-700 shadow-md border-b border-green-800 sticky top-0 z-20 transition-all duration-300">
       <div className="flex items-center justify-between px-4 md:px-6 py-3">
         {/* Left Section */}
         <div className="flex items-center gap-4">
@@ -154,4 +154,4 @@ const Header = ({ adminPanelOpen, setAdminPanelOpen, isMobile }) => {
   );
 };
 
-export default Header;
+export default HiddoHeader;
