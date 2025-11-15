@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React from 'react'
 
 // const Home = () => {
@@ -53,8 +54,20 @@ const Home = () => {
       <h1>Total Users</h1>
     </div>
      
+=======
+import React from 'react'
+
+const Home = () => {
+  return (
+    <div className='text-4xl font-bold'>
+      Rampratap
+>>>>>>> 24b826f5f528b1d9ee488106c0e01c42ae31eb23
     </div>
   )
 }
 
+<<<<<<< HEAD
 export default Home;
+=======
+export default Home
+>>>>>>> 24b826f5f528b1d9ee488106c0e01c42ae31eb23

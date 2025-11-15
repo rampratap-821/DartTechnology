@@ -20,7 +20,11 @@ const Login = () => {
       <div className="w-full max-w-md">
         <form
           onSubmit={handleLogin}
+<<<<<<< HEAD
           className="bg-black p-6 rounded-3xl shadow-2xl w-full"
+=======
+          className="bg-black border border-white/20 p-6 rounded-3xl shadow-2xl w-full"
+>>>>>>> 24b826f5f528b1d9ee488106c0e01c42ae31eb23
         >
           <div className="flex justify-center mb-6">
             <img 
@@ -34,32 +38,36 @@ const Login = () => {
            Login
           </h2>
 
-          <div className="mb-6 relative">
-            <MdEmail className="absolute left-4 top-4 text-white/70" size={20} />
+          <div className="mb-6 relative bg-green-700 rounded-2xl">
+            <MdEmail className="absolute left-4 top-4 text-white" size={20} />
             <input
               type="email"
               placeholder="Enter your email"
-              required
-              className="w-full pl-12 pr-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-transparent transition-all duration-300"
+             
+              className="w-full pl-12 pr-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/60 "
             />
           </div>
 
-          <div className="mb-8 relative">
+          <div className="mb-8 relative  bg-green-700 rounded-2xl ">
             <RiLockPasswordFill
-              className="absolute left-4 top-4 text-white/70"
+              className="absolute left-4 top-4 text-white"
               size={20}
             />
             <input
               type="password"
               placeholder="Enter your password"
-              required
-              className="w-full pl-12 pr-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-transparent transition-all duration-300"
+            
+              className="w-full pl-12 pr-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/60 "
             />
           </div>
 
           <button
             type="submit"
+<<<<<<< HEAD
             className="w-full bg-green-700 text-white  py-3 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+=======
+            className="w-full text-white bg-green-700  py-3 rounded-xl font-bold text-lg "
+>>>>>>> 24b826f5f528b1d9ee488106c0e01c42ae31eb23
           >
             Login
           </button>

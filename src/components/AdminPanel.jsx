@@ -43,7 +43,11 @@ const AdminPanel = ({ adminPanelOpen, onItemClick }) => {
 
 
         <Link
+<<<<<<< HEAD
           to="/coin/home"
+=======
+          to="/dashboard/home"
+>>>>>>> 24b826f5f528b1d9ee488106c0e01c42ae31eb23
           onClick={handleMenuItemClick} // ✅ Ye line add karo
           className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-200"
         >
@@ -74,6 +78,8 @@ const AdminPanel = ({ adminPanelOpen, onItemClick }) => {
           {adminPanelOpen && <span>Users</span>}
         </Link>
 
+
+
         <Link
           to="/coin/settings"
           onClick={handleMenuItemClick} // ✅ Ye line add karo
@@ -93,8 +99,13 @@ const AdminPanel = ({ adminPanelOpen, onItemClick }) => {
           }}
           className="w-full flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/20 transition-all duration-200"
         >
+<<<<<<< HEAD
           <FiLogOut size={20} className="text-white" />
           {adminPanelOpen && <span className="text-white">Logout</span>}
+=======
+          <FiLogOut size={20} className="text-white font-bold" />
+          {adminPanelOpen && <span className="text-white font-bold">Logout</span>}
+>>>>>>> 24b826f5f528b1d9ee488106c0e01c42ae31eb23
         </button>
       </div>
     </div>

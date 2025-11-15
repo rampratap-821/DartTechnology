@@ -52,7 +52,11 @@ const Dashboard = () => {
           )}
           
           {/* Mobile Sidebar */}
+<<<<<<< HEAD
           <div className={`fixed inset-y-0 left-0 z-40 w-64 bg-black text-white font-bold transform transition-transform duration-300 ease-in-out ${
+=======
+          <div className={`fixed inset-y-0 left-0 z-40 w-64 bg-green-700 text-white font-bold transform transition-transform duration-300 ease-in-out ${
+>>>>>>> 24b826f5f528b1d9ee488106c0e01c42ae31eb23
             adminPanelOpen ? 'translate-x-0' : '-translate-x-full'
           }`}>
             <AdminPanel 
@@ -63,7 +67,11 @@ const Dashboard = () => {
         </>
       ) : (
         /* Desktop Sidebar - Normal behavior */
+<<<<<<< HEAD
         <div className={`${adminPanelOpen ? 'w-64' : 'w-20'} bg-black text-white font-bold flex flex-col transition-all duration-300 ease-in-out shadow-lg relative`}>
+=======
+        <div className={`${adminPanelOpen ? 'w-64' : 'w-20'} bg-green-700 text-white font-bold flex flex-col transition-all duration-300 ease-in-out shadow-lg relative`}>
+>>>>>>> 24b826f5f528b1d9ee488106c0e01c42ae31eb23
           <AdminPanel 
             adminPanelOpen={adminPanelOpen} 
             onItemClick={() => {}} // ✅ Desktop par kuch nahi karna

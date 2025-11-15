@@ -69,10 +69,7 @@ const Header = ({ adminPanelOpen, setAdminPanelOpen, isMobile }) => {
 
         {/* Right Section */}
         <div className="flex items-center gap-3">
-          {/* Mobile Search Icon */}
-          <button className="p-2 rounded-lg bg-white/10 hover:bg-white/20 text-white sm:hidden">
-            <FiSearch size={20} />
-          </button>
+         
 
           {/* Notification Bell */}
           <button className="relative p-2 rounded-lg bg-white/10 hover:bg-white/20 text-white transition-colors duration-200">
